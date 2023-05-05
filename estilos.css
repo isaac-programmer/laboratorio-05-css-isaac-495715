@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Slide 01 */
+
+#container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+}
+
+
+/* Slide 02 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 03 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 04 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 05 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: flex;
+} */
+
+
+/* Slide 06 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* Slide 07 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 08 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 09 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-01 {
+    height: 250px;
+}
+
+#item-02 {
+    height: 150px;
+}
+
+#item-03 {
+    height: 200px;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 10 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: auto;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 11 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04,
+#item-05 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    background-color: red;
+} 
+
+#item-05 {
+    display: none;
+} */
+
+
+/*  Slide 12 */
+
+/* #container {
+    height: 45vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: last baseline;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    font-size: 48px;
+    align-self: baseline;
+}
+
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 13 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    order: -1;
+    background-color: red;
+} 
+
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 14 */
+
+/* #container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    background-color: red;
+} 
+
+#item-03 {
+    order: -1;
+} 
+
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 15 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    align-self: flex-start;
+    background-color: red;
+} 
+
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 16 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    align-self: flex-end;
+    background-color: red;
+} 
+
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 17 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03,
+#item-04 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    height: auto;
+    align-self: stretch;
+    background-color: red;
+} 
+
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 18 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-02 {
+    flex-grow: 2;
+    background-color: red;
+} 
+
+#item-04,
+#item-05 {
+    display: none;
+} */
+
+
+/* Slide 19 */
+
+/* #container {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#item-01,
+#item-02,
+#item-03 {
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-01,
+#item-03 {
+    flex-grow: 2;
+} 
+
+#item-04,
+#item-05 {
+    display: none;
+} */
